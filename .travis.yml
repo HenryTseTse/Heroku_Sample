@@ -9,3 +9,5 @@ script:
   - black --check .
 after_success:
   - coveralls
+os:
+  - osx
